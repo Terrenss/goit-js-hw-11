@@ -130,15 +130,15 @@ function maxFoundMassage() {
     Notiflix.Notify.warning('We&#96re sorry, but you&#96ve reached the end of search results.'); 
 }
 
-function smoothScroll() {
- const { height: cardHeight } = galleryEl
-  .firstElementChild.getBoundingClientRect();
+// function smoothScroll() {
+//  const { height: cardHeight } = galleryEl
+//   .firstElementChild.getBoundingClientRect();
 
-window.scrollBy({
-  top: cardHeight * 2,
-  behavior: "smooth",
-});
-}
+// window.scrollBy({
+//   top: cardHeight * 2,
+//   behavior: "smooth",
+// });
+// }
 
 function setLightbox() {
     lightbox = new SimpleLightbox('.photo-card a', {
